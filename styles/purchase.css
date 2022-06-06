@@ -1,0 +1,24 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+  }
+
+  .pos {
+    position: relative;
+    top: 18px;
+    font-size: 18px;
+  }
+
+  .voucher_class {
+    border: 2px solid red;
+    width: 80%;
+    text-align: center;
+  }
+
+  #purchased_vouchers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+  }

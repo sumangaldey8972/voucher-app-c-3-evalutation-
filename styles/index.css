@@ -1,0 +1,31 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+  }
+
+  div > a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 15px;
+    font-size: 22px;
+  }
+
+  #form{
+    border: 2px solid black;
+    text-align: center;
+    line-height: 40px;
+    width: 30%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: antiquewhite;
+  }
+
+  #submit{
+    background: transparent;
+    background-color: white;
+    padding: 8px 22px 8px 22px;
+    font-weight: bold;
+    font-size: 17px;
+  }
